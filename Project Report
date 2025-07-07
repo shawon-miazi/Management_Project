@@ -1,58 +1,67 @@
+Project Report: Simple Calculator with History
+Project Name: Simple Calculator with History
+Language Used: C
+Team Member: Shawon Miazi,rubayet,abdullah
 
-📄 Project Report
-Project Title: Simple Calculator with Operation History
-Submitted by: Shawon Miazi
-Language: C
-Project Type: Console Application
+ 1. Project Overview
+This project is a simple Student Record Management System developed in the C programming language. It allows the user to store, view, and manage student data efficiently using file handling and structures.
 
-🔍 Objective:
-To develop a basic calculator that performs addition and subtraction operations and stores the calculation history with timestamps in a file for future reference.
+🔹 2. Objective
+The main goal is to provide a basic system to:
 
-⚙️ Project Description:
-This project is a menu-driven calculator application that allows users to:
+Add and store student records.
 
-Perform addition and subtraction of two integers
+Display student information.
 
-View previously performed operations (history)
+Sort records based on semester or CGPA.
 
-Exit the application
+Maintain persistent storage using files.
 
-All operations along with date and time are stored in a text file named db.txt.
+🔹 3. Features
+Add new student (Name, ID, CGPA, Semester).
 
-🧩 Key Features:
-Addition & Subtraction functionality
+Read and write data to a file (db.txt).
 
-File handling to save and retrieve operation history
+Sort student records.
 
-Time logging using ctime() to store timestamps
+View all saved data.
 
-Interactive menu for ease of use
+Simple command-line interface.
 
-🛠️ Technologies Used:
-Language: C
+🔹 4. Tools and Language
+Programming Language: C
 
-Functions Used: fopen(), fprintf(), fgets(), time(), ctime()
+Text File: Used to store records persistently
 
-File Used: db.txt
+Compiler: GCC or any standard C compiler
 
-📂 File Structure:
-db.txt: Stores logs in the format:
-A + B = C >>>> Timestamp
-A - B = C >>>> Timestamp
+🔹 5. Working Principle
+When the program starts, it reads existing records from db.txt.
 
-👨‍💻 Sample Output:
-markdown
-Copy
-Edit
-1. Addition
-2. Subtraction
-3. Exit
-4. History
-Enter choice: 1
-Enter value of A: 15
-Enter value of B: 5
-*
-15 + 5 = 20
-*
-✅ Conclusion:
-The project successfully demonstrates basic C programming concepts including control structures, file handling, and time manipulation. It’s a simple yet effective demonstration of how C can be used to create practical console applications.
+Users are given menu options to add, view, or sort records.
+
+Data is saved back into the file to ensure persistence.
+
+🔹 6. Challenges Faced
+Handling string inputs and file operations.
+
+Ensuring data is not overwritten.
+
+Validating correct CGPA and semester values.
+
+🔹 7. Conclusion
+The project helped in understanding:
+
+File I/O operations in C.
+
+Use of arrays of structures.
+
+Real-world application of basic data management.
+
+🔹 8. Future Improvements
+Add update/delete features.
+
+Improve UI with colors or GUI.
+
+Password protection for admin access.
+

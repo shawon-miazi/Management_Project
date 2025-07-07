@@ -1,0 +1,58 @@
+
+📄 Project Report
+Project Title: Simple Calculator with Operation History
+Submitted by: Shawon Miazi
+Language: C
+Project Type: Console Application
+
+🔍 Objective:
+To develop a basic calculator that performs addition and subtraction operations and stores the calculation history with timestamps in a file for future reference.
+
+⚙️ Project Description:
+This project is a menu-driven calculator application that allows users to:
+
+Perform addition and subtraction of two integers
+
+View previously performed operations (history)
+
+Exit the application
+
+All operations along with date and time are stored in a text file named db.txt.
+
+🧩 Key Features:
+Addition & Subtraction functionality
+
+File handling to save and retrieve operation history
+
+Time logging using ctime() to store timestamps
+
+Interactive menu for ease of use
+
+🛠️ Technologies Used:
+Language: C
+
+Functions Used: fopen(), fprintf(), fgets(), time(), ctime()
+
+File Used: db.txt
+
+📂 File Structure:
+db.txt: Stores logs in the format:
+A + B = C >>>> Timestamp
+A - B = C >>>> Timestamp
+
+👨‍💻 Sample Output:
+markdown
+Copy
+Edit
+1. Addition
+2. Subtraction
+3. Exit
+4. History
+Enter choice: 1
+Enter value of A: 15
+Enter value of B: 5
+*
+15 + 5 = 20
+*
+✅ Conclusion:
+The project successfully demonstrates basic C programming concepts including control structures, file handling, and time manipulation. It’s a simple yet effective demonstration of how C can be used to create practical console applications.
